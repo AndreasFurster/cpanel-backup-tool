@@ -52,7 +52,7 @@
 
 	$context = stream_context_create($options);
 
-	$timestamp = time();
+	$timestamp = date('Y-m-d_H:i:s');
 
 	// Start downloading and uploading each backup file
 	foreach ($backups as $backup) {
