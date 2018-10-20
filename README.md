@@ -11,4 +11,4 @@ This only works with cPanel. You can use the restore features of cPanel to resto
 1. Upload the project to a **non-public** location
 1. Setup cron job to backup whenever you would like to
 
-### !! Do not store the project in a publicly accessible location
+### !! Do not store the project in a publicly executable location
