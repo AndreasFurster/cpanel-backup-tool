@@ -7,9 +7,8 @@ This only works with cPanel. You can use the restore features of cPanel to resto
 ## Setup instructions
 1. `composer install --no-dev`
 1. Change .env.example to .env
-1. Change .env file
-1. Upload dir to **non-public** location
+1. Modify .env file to your preferences
+1. Upload the project to a **non-public** location
 1. Setup cron job to backup whenever you would like to
 
-
-
+### !! Do not store the project in a publicly accessible location
